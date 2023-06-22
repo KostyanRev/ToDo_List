@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <div class="header__body">
+                    <h1 class="header__title">Todo List</h1>
+                    <div class="header__task-handler task-handler">
+                        <div class="task-handler__body">
+                            <input type="text" placeholder="Add Task" class="task-handler__input" id="task-name-input">
+                            <button class="task-handler__button" id="add-task-btn">ADD TASK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="page">
+            <div class="page__task-list">
+                <div class="task-list__container _container">
+                    <div class="task-list__body">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container _container">
+                <div class="footer__body">
+                    <button class="footer__delete-all buttons" id="deleteBtn">Delete All</button>
+                    <button class="footer__show-all buttons" id="showAllBtn">Show All</button>
+                    <button class="footer__incompleted buttons" id="showIncompletedBtn">Show Incompleted Tasks</button>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
